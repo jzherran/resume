@@ -1,5 +1,5 @@
 .container {
-  max-width: 36rem;
+  max-width: 100rem;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
 }
@@ -22,4 +22,28 @@
 
 .backToHome {
   margin: 3rem 0 0;
+}
+
+.logo {
+  width: 5rem;
+  height: 2.5rem;
+  align-items: flex-start;
+}
+
+.topHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav.navContainer > a {
+  margin: 0 1em;
 }

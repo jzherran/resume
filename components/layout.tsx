@@ -1,10 +1,9 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import styles from '../styles/layout.module.css'
-import utilStyles from '../styles/utils.module.css'
+import Head from "next/head";
+import Link from "next/link";
+import styles from "../styles/layout.module.css";
 
-export const name = 'Jhonatan A. Zambrano H.'
-export const siteTitle = 'Résume - jzherran'
+export const name = "Jhonatan A. Zambrano H.";
+export const siteTitle = "Résume - jzherran";
 
 export default function Layout({
   children,
@@ -25,42 +24,20 @@ export default function Layout({
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        {home ? (
-          <>
-            <img
-              src="/images/profile.jpg"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-        ) : (
-          <>
+        <div className={styles.topHeader}>
+          <img src="/images/logo.svg" alt="jzherran" className={styles.logo} />
+          <nav className={styles.navContainer}>
             <Link href="/">
-              <a>
-                <img
-                  src="/images/profile.jpg"
-                  className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                  alt={name}
-                />
-              </a>
+              <a className="w-50">Home</a>
             </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
-          </>
-        )}
+            <Link href="/">
+              <a className="w-50">About</a>
+            </Link>
+          </nav>
+        </div>
+        <h1>- Title -</h1>
       </header>
       <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
     </div>
   );
 }
