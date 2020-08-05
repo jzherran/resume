@@ -1,7 +1,7 @@
 @import "utils.module.scss";
 
 .container {
-  max-width: 100rem;
+  max-width: 80%;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
 }
@@ -57,7 +57,6 @@ nav.navContainer > a {
 }
 
 .container > main {
-  max-width: 80rem;
   padding: 0 1rem;
-  margin: 0 auto 6rem;
+  margin: 1rem auto 1rem;
 }

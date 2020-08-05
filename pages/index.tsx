@@ -7,6 +7,7 @@ export default function Home() {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className={utilStyles.headingMd}>
@@ -18,14 +19,14 @@ export default function Home() {
             implementation, and analysis of different software projects.
           </p>
           <p>
-            Always in the search to learn and 9nd new professional and personal
+            Always in the search to learn and new professional and personal
             challenges, taking advantage of new projects being able to relate
             with people that I can help and learn from.
           </p>
           <p>
             Passionate about the topics about technology and development,
-            contestant of programming marathons and application developer in my
-            free time.
+            contestant of programming marathons, and develop some different
+            things in my free time.
           </p>
         </div>
         <div className={utilStyles.lineSeparator}></div>
