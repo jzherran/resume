@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout"
+import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 
 export default function Home() {
@@ -10,7 +10,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>- Content -</p>
+        <div className={utilStyles.content}>
+          <h2>About</h2>
+          <p>
+            Systems engineer, passionate about software development, with eight
+            years of experience in different positions related to design,
+            implementation, and analysis of different software projects. Always
+            in the search to learn and 9nd new professional and personal
+            challenges, taking advantage of new projects being able to relate
+            with people that I can help and learn from. Passionate about the
+            topics about technology and development, contestant of programming
+            marathons and application developer in my free time.
+          </p>
+        </div>
+        <div className={utilStyles.lineSeparator}></div>
       </section>
     </Layout>
   );

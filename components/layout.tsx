@@ -7,7 +7,6 @@ export const siteTitle = "Résume - jzherran";
 
 export default function Layout({
   children,
-  home,
 }: {
   children: React.ReactNode;
   home?: boolean;
@@ -35,7 +34,7 @@ export default function Layout({
             </Link>
           </nav>
         </div>
-        <h1>- Title -</h1>
+        <h1>Lang.Println("Jhonatan A. Zambrano Herran")</h1>
       </header>
       <main>{children}</main>
     </div>
