@@ -1,3 +1,5 @@
+@import "utils.module.scss";
+
 .container {
   max-width: 100rem;
   padding: 0 1rem;
@@ -8,6 +10,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  h1 {
+    align-self: flex-end;
+    @include resizeHeader(mobile) {
+      font-size: 12.5px;
+    }
+  }
 }
 
 .headerImage {
@@ -48,12 +56,8 @@ nav.navContainer > a {
   margin: 0 1em;
 }
 
-.header > h1 {
-  align-self: flex-end;
-}
-
 .container > main {
   max-width: 80rem;
   padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  margin: 0 auto 6rem;
 }

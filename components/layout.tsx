@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import styles from "../styles/layout.module.css";
+import styles from "../styles/layout.module.scss";
 
 export const name = "Jhonatan A. Zambrano H.";
 export const siteTitle = "Résume - jzherran";
