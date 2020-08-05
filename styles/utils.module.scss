@@ -62,5 +62,9 @@
     @media (max-width: 37.5em) {
       @content;
     }
+  } @else if $size == desktop {
+    @media (max-width: 40em) {
+      @content;
+    }
   }
 }

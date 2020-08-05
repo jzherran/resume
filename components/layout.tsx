@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "../styles/layout.module.scss";
 
 export const name = "Jhonatan A. Zambrano H.";
-export const siteTitle = "Résume - jzherran";
+export const siteTitle = "Resume - jzherran";
 
 export default function Layout({
   children,
