@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section>
         <div className={utilStyles.content}>
           <h2>About</h2>
           <p>

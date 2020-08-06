@@ -12,9 +12,12 @@
   align-items: center;
   h1 {
     align-self: flex-end;
+    // TODO it's required to validate what is the best approach to do that
+    /* 
     @include resizeHeader(mobile) {
       font-size: 12.5px;
     }
+    */
   }
 }
 

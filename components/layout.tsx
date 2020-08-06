@@ -34,7 +34,7 @@ export default function Layout({
             </Link>
           </nav>
         </div>
-        <h1>Lang.Println("Jhonatan A. Zambrano Herran")</h1>
+        <h1 className={styles.headingLg}>Lang.Println("Jhonatan A. Zambrano Herran")</h1>
       </header>
       <main>{children}</main>
     </div>
