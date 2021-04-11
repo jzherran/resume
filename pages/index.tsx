@@ -9,6 +9,9 @@ export default function Home() {
         <title>{siteTitle}</title>
         <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/favicon.ico" />
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+        </style> 
       </Head>
       <section>
         <div className={utilStyles.content}>
