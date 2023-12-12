@@ -27,10 +27,10 @@ export default function Layout({
           <img src="/images/logo.svg" alt="jzherran" className={styles.logo} />
           <nav className={styles.navContainer}>
             <Link href="/">
-              <a className="w-50">Home</a>
+              Home
             </Link>
             <Link href="/">
-              <a className="w-50">About</a>
+              About
             </Link>
           </nav>
         </div>
