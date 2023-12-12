@@ -34,6 +34,14 @@ export default function Home() {
           </p>
         </div>
         <div className={utilStyles.lineSeparator}></div>
+        <div className={utilStyles.content}>
+          <h2>Experience</h2>
+          <div>
+            <h3>Senior Software Engineer</h3>
+            <p>Nubank · Full-time</p>  
+            <p>Feb 2022 - Present · 1 yr 11 mos</p>
+          </div>
+        </div>
       </section>
       <SpeedInsights />
     </Layout>
